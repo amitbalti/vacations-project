@@ -1,0 +1,13 @@
+.Header {
+  margin-top: -13px;
+}
+
+a:hover {
+  color: black;
+}
+
+.HomeHeader {
+  color: #6a5acd;
+  font-size: 37px;
+  text-decoration: none;
+}

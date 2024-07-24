@@ -1,0 +1,13 @@
+.MainLayout {
+  height: 100%;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-rows: 7% 93%;
+  /* 7 - on top, 93 - in the rest of the page */
+}
+
+/* Making it to the whole component and all of it's inner components */
+.MainLayout,
+.MainLayout > * {
+  border: 1px solid transparent;
+}
